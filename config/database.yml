@@ -1,0 +1,17 @@
+default: &default
+  host: 192.168.1.211
+  password: password
+  database: orcl
+  adapter: oracle_enhanced
+  encoding: unicode
+  pool: 5
+  port: 1521
+
+# ----------------------  Development ------------------------------
+development:
+  <<: *default
+  username: dev_user
+
+production:
+  adapter: oracle_enhanced
+  jndi: jdbc/local-dev
