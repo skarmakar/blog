@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rails', '4.2.7'
 
-gem 'activerecord-oracle_enhanced-adapter', '~> 1.6.9'
+gem 'activerecord-oracle_enhanced-adapter', git: 'https://github.com/skarmakar/oracle-enhanced.git', branch: 'release16'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'jquery-rails'

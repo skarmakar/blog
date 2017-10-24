@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/skarmakar/oracle-enhanced.git
+  revision: 7e5c7cb09eb5980023d4fdbcbec510aabb074747
+  branch: release16
+  specs:
+    activerecord-oracle_enhanced-adapter (1.6.9)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -30,7 +37,6 @@ GEM
       activemodel (= 4.2.7)
       activesupport (= 4.2.7)
       arel (~> 6.0)
-    activerecord-oracle_enhanced-adapter (1.6.9)
     activesupport (4.2.7)
       i18n (~> 0.7)
       json (~> 1.7, >= 1.7.7)
@@ -146,7 +152,7 @@ PLATFORMS
   java
 
 DEPENDENCIES
-  activerecord-oracle_enhanced-adapter (~> 1.6.9)
+  activerecord-oracle_enhanced-adapter!
   jquery-rails
   rails (= 4.2.7)
   sass-rails (~> 5.0)
